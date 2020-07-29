@@ -1,4 +1,5 @@
 <?php
+var_dump($_SERVER);
 if (!empty($_SERVER['REMOTE_HOST']) && strpos($_SERVER['REMOTE_HOST'], '.herokuapp.com')) {
     header('Location: http://www.ecommerce-consulting.pl/');
     die();
