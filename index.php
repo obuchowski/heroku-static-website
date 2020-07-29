@@ -1,6 +1,6 @@
 <?php
-var_dump($_SERVER);
-if (!empty($_SERVER['REMOTE_HOST']) && strpos($_SERVER['REMOTE_HOST'], '.herokuapp.com')) {
+if (!empty($_SERVER['HTTP_HOST']) && !strcmp($_SERVER['HTTP_HOST'], 'ecommerce-consulting.herokuapp.com')) {
+    header("HTTP/1.1 301 Moved Permanently");
     header('Location: http://www.ecommerce-consulting.pl/');
     die();
 }
