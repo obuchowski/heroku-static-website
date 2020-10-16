@@ -14,5 +14,6 @@ if (!empty($_SERVER['HTTP_HOST']) && !strcmp($_SERVER['HTTP_HOST'], 'ecommerce-c
 </head>
 <body>
     <h1>eCommerce Consulting</h1>
+    <a href="contact@ecommerce-consulting.pl" target="_blank">contact@ecommerce-consulting.pl</a>
 </body>
 </html>
